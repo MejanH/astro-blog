@@ -7,8 +7,12 @@ specifiers:
   '@astrojs/tailwind': ^1.0.0
   astro: ^1.0.6
   daisyui: ^2.24.0
+  nanostores: ^0.6.0
   prettier: ^2.7.1
   prettier-plugin-astro: ^0.5.0
+
+dependencies:
+  nanostores: 0.6.0
 
 devDependencies:
   '@astrojs/mdx': 0.10.0
@@ -2635,6 +2639,11 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
     dev: true
+
+  /nanostores/0.6.0:
+    resolution: {integrity: sha512-CQpKE8wtaJAr66hbg32t0MOAeybzLywU6UsLAX18kyQL/bME+xwhjWpmrvJRBp5kueFy6hs2oHlt3HFpNP+JaA==}
+    engines: {node: ^14.0.0 || ^16.0.0 || >=18.0.0}
+    dev: false
 
   /nlcst-to-string/2.0.4:
     resolution: {integrity: sha512-3x3jwTd6UPG7vi5k4GEzvxJ5rDA7hVUIRNHPblKuMVP9Z3xmlsd9cgLcpAMkc5uPOBna82EeshROFhsPkbnTZg==}
